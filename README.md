@@ -38,8 +38,8 @@ iris-flower-classification/
 
 1. Clone this repository:
 ```bash
-git clone [repository-url]
-cd iris-classification
+git clone https://github.com/pleiadeslol/Iris-Flower-Classification
+cd Iris-Flower-Classification
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -83,24 +83,6 @@ pip install -r requirements.txt
    - Create confusion matrix
    - Generate classification report
 
-## Usage Example
-```python
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-
-# Load data
-iris = load_iris()
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2)
-
-# Train model
-model = DecisionTreeClassifier()
-model.fit(X_train, y_train)
-
-# Make predictions
-predictions = model.predict(X_test)
-```
-
 ## Project Goals
 - Understand basic machine learning workflow
 - Learn data preprocessing techniques
@@ -127,6 +109,3 @@ Common issues and solutions:
 
 ## Contributing
 Feel free to fork this project and submit improvements through pull requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
