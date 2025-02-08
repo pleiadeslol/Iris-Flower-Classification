@@ -17,7 +17,7 @@ Each flower has four features measured in centimeters:
 
 ## Project Structure
 ```
-iris-classification/
+iris-flower-classification/
 │
 ├── data/
 │   └── iris_dataset.csv
